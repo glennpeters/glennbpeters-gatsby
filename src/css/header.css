@@ -1,0 +1,43 @@
+header {
+    background-color: #00203b;
+    margin-bottom: 1.45rem;
+}
+
+header .page-wide {
+    margin: 0 auto;
+    padding: 0.3em 0;
+}
+
+header h1 {
+    font-family: 'Merriweather', sans-serif;
+    letter-spacing: 0.05em;
+    margin: 0.1em 0 0.1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header .navLinks {
+    margin: 0;
+    color: #edf2f4;
+    text-align: right;
+    padding: 0;
+}
+
+header .navLinks a {
+    margin: 0 0 0.1em;
+    padding: 0 0.3em 0.01em;
+    /* border-bottom: #005fb1 4px solid; */
+}
+
+header .navLinks a[aria-current="page"] {
+    /* border-bottom: #edf2f4 4px solid; */
+    text-decoration: underline;
+}
+
+header .navLinks a:hover {
+    /* border-bottom: #6791a2 4px solid; */
+    color: #6791a2;    
+}
