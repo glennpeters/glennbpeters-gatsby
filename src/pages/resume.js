@@ -503,7 +503,7 @@ const Resume = () => (
 							Designed and created (and hosted) 
 							{' '}
 							<a href="https://oregongo.org/" target="_blank" rel="noreferrer">oregongo.org</a> for
-							local Go community (AngularJS, Bootstrap, HTML, CSS, PHP)
+							local Go community (Angular, Bootstrap, HTML, CSS, PHP)
 						</li>
 					</ul>
 				</div>
