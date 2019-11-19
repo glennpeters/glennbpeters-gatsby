@@ -19,6 +19,14 @@ const Resume = () => (
 				</div>
 			</div> */}
 
+			<p></p>
+
+			<ul>
+				<li>
+					<a href="https://mdn.github.io/learning-area/css/css-layout/flexbox/flexbox0.html" target="_blank" rel="noopener noreferrer">MDN Flexbox0 sample</a>
+				</li>
+			</ul>
+
 			<div id="header">
 				<h1>Glenn Peters</h1>
 
@@ -502,7 +510,7 @@ const Resume = () => (
 						<li>
 							Designed and created (and hosted) 
 							{' '}
-							<a href="https://oregongo.org/" target="_blank" rel="noreferrer">oregongo.org</a> for
+							<a href="https://oregongo.org/" target="_blank" rel="noopener noreferrer">oregongo.org</a> for
 							local Go community (Angular, Bootstrap, HTML, CSS, PHP)
 						</li>
 					</ul>

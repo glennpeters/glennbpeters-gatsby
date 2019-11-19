@@ -185,28 +185,6 @@
 }
 
 
-/* TODO  */
-.container {
-	min-height: 400px;
-	display: flex;
-	display: -webkit-flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-}
-.container:after {
-	display: block;
-	content: " invisible node ";
-	flex: 999 999 auto;
-}
-.item {
-	flex: 0 0 auto;
-	margin: 5px;
-}
-
-
 /* ============================================================== *\
  *
  * Mobile

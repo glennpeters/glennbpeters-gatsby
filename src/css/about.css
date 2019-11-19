@@ -1,0 +1,23 @@
+/* .container {
+    background-color: red;
+} */
+
+.item .imgBox {
+    min-width: 200px;
+}
+
+
+.self-portrait {
+    /* max-width: 300px; */
+    min-width: 200px;
+    margin: 0 auto 1.45rem;
+}
+
+.self-portrait img {
+    /* border-radius: 10%; */
+    filter: grayscale(70%);
+}
+
+.self-portrait img:hover {
+    filter: grayscale(10%);
+}
