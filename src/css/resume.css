@@ -22,7 +22,7 @@
 	color: #0074d8;
 }
 
-#header h1 {
+#my-info h1 {
 	line-height: 1;
 	margin: 0.3em 0 0.1em 0;
 	font-size: 2.1em;
@@ -30,16 +30,21 @@
 	/* font-family: 'Merriweather', 'Times New Roman', Times, serif; */
 }
 
-#header p {
+#my-info p {
 	margin: 0;
 	letter-spacing: 0.05em;
 	line-height: 1.5;
 }
 
-#header {
+#my-info {
 	text-align: right;
 	width: 96%;
 	margin: 0 auto;
+}
+
+#my-info a[href^="tel:"]:after {
+	content: " | ";
+	margin-right: 0.1em;
 }
 
 #technologies ul {
@@ -83,13 +88,13 @@
  *
 \* ============================================================== */
 
-.section {
+section {
 	text-align: left;
 	width: 90%;
 	margin: 1.5em auto 2.5em;
 }
 
-.section > h2 {
+section > h2 {
 	font-family: 'Merriweather', 'Times New Roman', Times, serif;
 	font-size: 1.3rem;
 	font-weight: 300;
@@ -101,11 +106,11 @@
 	border-bottom: 2px solid #ccc;
 }
 
-.section > ul {
+section > ul {
 	margin-top: 0.4em;
 }
 
-.section > .job {
+section > .job {
 	margin: 0 0 2em;
 }
 
@@ -116,7 +121,7 @@
 }
 
 .job .info .company {
-	margin: 0;
+	margin: 0 0 0.2em;
 	font-size: 140%;
 	font-weight: bold;
 	letter-spacing: 0.2em;
@@ -164,17 +169,17 @@
 	display: none;
 } */
 
-.section a:link,
-.section a:visited {
+section a:link,
+section a:visited {
 	color: #003366;
 }
 
-.section a:active,
-.section a:hover {
+section a:active,
+section a:hover {
 	color: #0074d8;
 }
 
-.section#note > h2 {
+section#note > h2 {
 	border: none;
 	line-height: 1.4;
 	padding: 0.1em 0.2em;
@@ -192,21 +197,30 @@
 \* ============================================================== */
 
 @media only screen and (max-width: 480px) {
-	#header {
+	#my-info {
 		text-align: center;
-		margin: 0 auto;
+		margin: 0 auto 1.5em;
 		padding: 0;
 		font-size: 125%;
-		margin-bottom: 2em;
+		line-height: 1.3;
 	}
 
-	.section {
+	#my-info a[href^="tel:"] {
+		display: block;
+	}
+
+	#my-info a[href^="tel:"]:after {
+		content: "";
+		margin-right: 0;
+	}
+	
+	section {
 		text-align: left;
 		width: 94%;
 		margin: 1.5em auto 2.5em;
 	}
 	
-	.section > h2 {
+	section > h2 {
 		font-size: 1.8rem;
 	}
 	
@@ -219,12 +233,12 @@
 		padding: 0.9rem 1.2rem;
 	}
 
-	.section {
-		font-size: 140%;
+	section {
+		font-size: 120%;
 		line-height: 1.5;
 	}
 
-	.section .job {
+	section .job {
 		margin-left: 0;
 	}
 
@@ -234,7 +248,7 @@
 		line-height: 1.5;
 	}
 
-	.section .job .info .position {
+	section .job .info .position {
 		font-size: 1.2rem;
 		line-height: 1.5;
 	}
@@ -256,11 +270,11 @@
 		display: block;
 	}
 
-	.section .job ul {
+	section .job ul {
 		margin-left: 1.4em;
 	}
 
-	.section#note > h2 {
+	section#note > h2 {
 		margin: 0;
 	}
 }
@@ -274,7 +288,7 @@
 
 @media print 
 {
-	.section#note > h2 {
+	section#note > h2 {
 		font-style: normal;
 	}
 }

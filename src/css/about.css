@@ -2,20 +2,24 @@
     background-color: red;
 } */
 
+#about section {
+    display: flex;
+}
+
 .item .imgBox {
     min-width: 200px;
 }
 
-
 .self-portrait {
     /* max-width: 300px; */
-    min-width: 200px;
-    margin: 0 auto 1.45rem;
+    min-width: 360px;
+    margin: 0 2em 1.45rem;
 }
 
 .self-portrait img {
     /* border-radius: 10%; */
     filter: grayscale(70%);
+    transition: all 1s ease-out;
 }
 
 .self-portrait img:hover {

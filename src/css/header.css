@@ -35,6 +35,7 @@ header .navLinks a {
 header .navLinks a[aria-current="page"] {
     /* border-bottom: #edf2f4 4px solid; */
     text-decoration: underline;
+    /* text-shadow: 0 0 8px #edf2f4; */
 }
 
 header .navLinks a:hover {

@@ -11,33 +11,18 @@ const Resume = () => (
     <SEO title="Glenn Peters Resume" />
     <div id="resume">
 		<div id="innerWrapper container">
-			{/* <div id="resources" className="noPrint">
-				<div className="pill">
-					Download: 
-					<a href="/resources/Glenn-Peters-Resume.pdf" title="Download as PDF (recommended)" rel="noreferrer">PDF</a> | 
-					<a href="/resources/Glenn-Peters-Resume.docx" title="Download as Docx format" rel="noreferrer">Word</a> 
-				</div>
-			</div> */}
 
-			<p></p>
-
-			<ul>
-				<li>
-					<a href="https://mdn.github.io/learning-area/css/css-layout/flexbox/flexbox0.html" target="_blank" rel="noopener noreferrer">MDN Flexbox0 sample</a>
-				</li>
-			</ul>
-
-			<div id="header">
+			<div id="my-info">
 				<h1>Glenn Peters</h1>
 
 				<p>
-					503 753-4919 | 
+					<a href="tel:503-753-4919">503 753-4919</a>
 					Portland, OR<br />
-					work@glennbpeters.com
+					<a href="mailto:work@glennbpeters.com">work@glennbpeters.com</a>
 				</p>
 			</div>
 
-			<div className="section" id="technologies">
+			<section id="technologies">
 
 				<h2>Technologies</h2>
 
@@ -61,9 +46,9 @@ const Resume = () => (
 						Tableau, Git, Visual SourceSafe, CVS, Subversion
 					</li>
 				</ul>
-			</div>
+			</section>
 
-			<div id="workExperience" className="section">
+			<section id="workExperience">
 
 				<h2>Work Experience</h2>
 
@@ -491,13 +476,13 @@ const Resume = () => (
 						<li>Managed Macintosh hardware and scanning room.</li>
 					</ul>
 				</div>
-			</div>
+			</section>
 
-			<div className="section" id="note">
+			<section id="note">
 				<h2>Previous Experience Upon Request – including Oracle, CMD, and Via Training. </h2>
-			</div>
+			</section>
 
-			<div className="section" id="personal">
+			<section id="personal">
 				<h2>Other Projects</h2>
 
 				<div className="job">
@@ -515,16 +500,18 @@ const Resume = () => (
 						</li>
 					</ul>
 				</div>
-			</div>
+			</section>
 
-			<div className="section" id="education">
+			<section id="education">
 				<h2>Education</h2>
 
 				<ul>
-					<b>Hampshire College</b>, 1989-1991<br />
-					Concentration in Computer Communications
+					<strong className="mobile-block">Hampshire College</strong> {' '}
+					1989-1991
+					
+					<p>Concentration in Computer Communications</p>
 				</ul>
-			</div>
+			</section>
 
 		</div>
 	</div>

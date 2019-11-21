@@ -673,7 +673,7 @@ footer .page-wide {
   margin: 0 auto;
 }
 
-p.buttons {
+p.button {
   text-align: center;
 }
 
@@ -695,7 +695,7 @@ p.buttons {
   display: inline-block;
   padding: 0.8em 1.2em;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.42857143;
   text-align: center;
@@ -714,7 +714,9 @@ p.buttons {
 }
 
 .btn:hover {
-  color: #0074d8;
+  /* color: #0074d8; */
+  color: #fff;
+  background-color: #369;
   border: 1px solid #0074d8;
 }
 
@@ -823,6 +825,9 @@ Light Grey: #edf2f4	(237,242,244) */
 	header .navLinks {
     font-size: 1.4rem;
     padding: 0.3em 0.1em;
-	}
-
+  }
+  
+  .mobile-block {
+    display: block;
+  }
 }

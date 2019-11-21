@@ -11,8 +11,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Glenn Peters" />
 
-    <div className="container">
-      <div className="row">
+    <div className="container" id="about">
+      <section>
         <div className="item">
           <div className="self-portrait">
             <ImageGlenn />
@@ -20,31 +20,6 @@ const IndexPage = () => (
         </div>
 
         <div className="item">
-          <ul>
-            <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images" 
-              target="_blank" rel="noopener noreferrer">Use responsive images and picture set</a> {` `}
-              (Note: Gatsby seems to be doing this automatically.)
-            </li>
-            <li>
-              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" 
-                target="_blank" rel="noopener noreferrer">CSS Tricks: Guide ot Flexbox</a> {` `}
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" 
-                target="_blank" rel="noopener noreferrer">MDN: Flexbox</a> {` `}
-            </li>
-            <li>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" 
-                target="_blank" rel="noopener noreferrer">MDN: Basic Concepts of Flexbox</a> {` `}
-            </li>
-            <li>
-              <a href="https://webaim.org/techniques/skipnav/" 
-                target="_blank" rel="noopener noreferrer">WebAIM: Skip Navigation</a> {` `}
-            </li>
-            
-          </ul>
-
           <p>
             Glenn is a software developer specializing in web development who’s worked with 
             big companies like Oracle and DSV as well as small to mid-size startups and agencies.  
@@ -56,17 +31,22 @@ const IndexPage = () => (
             many websites, large and small.          
           </p>          
         </div>
+      </section>
+
+      <div className="row">
       </div>
 
       <div className="item nav">
-        <p className="buttons">
+        <p className="button">
           <a href="http://portfolio.aenigma.com/" 
             target="_blank" rel="noopener noreferrer"
             class="btn">Go To Portfolio</a>
         </p>
 
         <p>
-          Built with <a href="https://www.gatsbyjs.org" target="_blank" rel="noopener noreferrer">Gatsby</a> React framework.
+          <small>
+            Built with <a href="https://www.gatsbyjs.org" target="_blank" rel="noopener noreferrer">Gatsby</a> React framework.
+          </small>
         </p>
       </div>
     </div>
