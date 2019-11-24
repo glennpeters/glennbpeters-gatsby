@@ -634,19 +634,27 @@ pre tt:after {
   }
 }
 
-/* GBP */
+/* ============================================================== *\
+ *
+ * Glenn Styles
+ *
+\* ============================================================== */
 
 .page-wide {
-  width: 90%;
-  max-width: 960px;
+  width: 100%;
+  max-width: 860px;
 }
 
 .page-layout {
-  margin: 0 auto;
+  margin: 8em auto 5em;
 }
 
 main {
-  margin: 2em auto 4em;
+  margin: 0;
+}
+
+main ul {
+  list-style: circle;  
 }
 
 main a {
@@ -822,11 +830,15 @@ Light Grey: #edf2f4	(237,242,244) */
 \* ============================================================== */
 
 @media only screen and (max-width: 480px) {
-	header .navLinks {
-    font-size: 1.4rem;
-    padding: 0.3em 0.1em;
+
+  .page-layout {
+    margin: 7.6em auto 2em;
   }
-  
+
+  header h1 {
+    margin: 0.5em 0 2.5em;
+  }
+
   .mobile-block {
     display: block;
   }

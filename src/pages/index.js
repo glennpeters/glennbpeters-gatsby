@@ -21,14 +21,19 @@ const IndexPage = () => (
 
         <div className="item">
           <p>
-            Glenn is a software developer specializing in web development who’s worked with 
+            Glenn is a front end web developer who’s worked with 
             big companies like Oracle and DSV as well as small to mid-size startups and agencies.  
-            He often has to adapt and learn new technologies on the fly, with a particular focus 
-            on finding out what will serve both the client and end user.  At Ricochet, he wrote a 
-            SCORM Bridge, allowing the sale of a developed set of courseware to the client when 
-            the existing protocols didn’t match.  At ARM Insight, he implemented Google Analytics 
-            tracking in the reward website.  He’s been instrumental in developing or maintaining 
-            many websites, large and small.          
+            He has been instrumental in 
+            developing and maintaining many websites, large and small.
+            He is proficient at learning new tech on the fly and 
+            finding out what will serve both the client and end user.  
+          </p>
+          <p>
+            Just some examples of what he's accomplished include: A JavaScript wrapper 
+            that allowed the sale of a developed set of courseware to the client when 
+            the existing protocols didn’t match the end client's Learning Management System.  
+            At ARM Insight, he implemented Google Analytics 
+            tracking in the micro-reward website, allowing more detailed analysis of user flow.  
           </p>          
         </div>
       </section>
@@ -40,7 +45,7 @@ const IndexPage = () => (
         <p className="button">
           <a href="http://portfolio.aenigma.com/" 
             target="_blank" rel="noopener noreferrer"
-            class="btn">Go To Portfolio</a>
+            className="btn">Go To Portfolio</a>
         </p>
 
         <p>

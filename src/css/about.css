@@ -1,6 +1,3 @@
-/* .container {
-    background-color: red;
-} */
 
 #about section {
     display: flex;
@@ -17,11 +14,31 @@
 }
 
 .self-portrait img {
-    /* border-radius: 10%; */
-    filter: grayscale(70%);
+    border-radius: 10%;
+    filter: grayscale(10%);
     transition: all 1s ease-out;
 }
 
 .self-portrait img:hover {
     filter: grayscale(10%);
+}
+
+
+/* ============================================================== *\
+ *
+ * Mobile
+ *
+\* ============================================================== */
+
+@media only screen and (max-width: 480px) {
+
+    #about section {
+        display: block;
+    }
+    
+    .self-portrait {
+        min-width: 200px;
+        width: 90%;
+        margin: 0 auto 1.45rem;
+    }
 }

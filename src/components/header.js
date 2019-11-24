@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <div className="navLinks">
+      <nav>
         {/* <Link
           to="/portfolio"
         >
@@ -24,14 +24,14 @@ const Header = ({ siteTitle }) => (
           to="/"
         >
           About
-        </Link> | 
+        </Link>
         <Link
           to="/resume"
         >
           R&eacute;sum&eacute;
         </Link> 
         {/* <a href="http://portfolio.aenigma.com/" target="_blank" rel="noreferrer">Portfolio</a>  */}
-      </div>
+      </nav>
     </div>
   </header>
 )

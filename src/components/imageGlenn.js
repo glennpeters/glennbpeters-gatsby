@@ -13,10 +13,16 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+ // 2017_lan-su-glenn.jpg
+ // 2018-06-18_Coast_Glenn-crop-wide.jpg
+ // 2012_me_kauai_beach-crop.jpg
+ // 2017-08-21_eclise-shadows.jpg
+ // 2016-10-04_me_with_hoe-crop.jpg
+
 const ImageGlenn = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "2018-06-18_Coast_Glenn-crop.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "2016-10-04_me_with_hoe-crop.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

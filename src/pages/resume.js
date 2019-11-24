@@ -28,17 +28,17 @@ const Resume = () => (
 
 				<ul>
 					<li>
-						<strong>Languages and libraries</strong>: 
+						<strong>Languages and libraries</strong>
 						HTML5, CSS3 (Responsive Design, Media Queries), SASS, JavaScript 
 						(including jQuery, Vue, React, Angular, Knockout, Greensock, 
 						Handlebars, et al), PHP, SQL
 					</li>
 					<li>
-						<strong>Platforms</strong>:
+						<strong>Platforms</strong>
 						Macintosh, Windows, Unix / Linux
 					</li>
 					<li>
-						<strong>Tools and Protocols</strong>:
+						<strong>Tools and Protocols</strong>
 						VS Code, Visual Studio, 
 						Jira/Atlassian Suite, Webpack, Snowflake, 
 						mySQL, SQL Server, 

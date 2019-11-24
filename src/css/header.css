@@ -1,17 +1,23 @@
 header {
     background-color: #00203b;
-    margin-bottom: 1.45rem;
+    margin: 0 auto 1.45rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    width: 100vw;
+    z-index: 1000;
 }
 
 header .page-wide {
     margin: 0 auto;
-    padding: 0.3em 0;
+    padding: 0;
 }
 
 header h1 {
     font-family: 'Merriweather', sans-serif;
     letter-spacing: 0.05em;
-    margin: 0.1em 0 0.1em;
+    margin: 0.4em 0 0.1em;
 }
 
 header a {
@@ -19,26 +25,51 @@ header a {
     text-decoration: none;
 }
 
-header .navLinks {
+header nav {
     margin: 0;
+    padding: 0;
     color: #edf2f4;
     text-align: right;
-    padding: 0;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-header .navLinks a {
-    margin: 0 0 0.1em;
-    padding: 0 0.3em 0.01em;
-    /* border-bottom: #005fb1 4px solid; */
+header nav a {
+    margin: 0;
+    padding: 0.6em 1.3em;
+    border: 1px rgba(0,32,59, 0.4) solid;
+    border-bottom: none;
+    transition: all 0.25s ease-in-out;
+    background-color: rgba(237, 242, 244, 0.4);
+    color: #00203b;
+    display: inline-flex;
 }
 
-header .navLinks a[aria-current="page"] {
-    /* border-bottom: #edf2f4 4px solid; */
-    text-decoration: underline;
-    /* text-shadow: 0 0 8px #edf2f4; */
+header nav a + a {
+    border-left: none;
 }
 
-header .navLinks a:hover {
-    /* border-bottom: #6791a2 4px solid; */
-    color: #edf2f4;    
+header nav a[aria-current="page"] {
+    background-color: rgba(237, 242, 244, 0.6);
+    color: #00203b;
+}
+
+header nav a:hover {
+    background-color: rgba(237, 242, 244, 0.9);
+    color: #00203b;
+}
+
+
+
+/* ============================================================== *\
+ *
+ * Mobile
+ *
+\* ============================================================== */
+
+@media only screen and (max-width: 480px) {
+
+    header h1 {
+        margin: 0.4em 0.8em 0.6em;
+    }
 }
