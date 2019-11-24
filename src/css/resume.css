@@ -102,6 +102,10 @@ section > h2 {
 	padding-bottom: 0.3em;
 	margin-bottom: 0.7em;
 	border-bottom: 2px solid #ccc;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 120px;
+	background-color: #edf2f4;
 }
 
 section > ul {

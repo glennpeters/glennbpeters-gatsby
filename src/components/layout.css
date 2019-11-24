@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Jura|Merriweather|Source+Sans+Pro&display=swap');
 
+/* ============================================================== *\
+ *
+ * Theme / Palette
+ *
+\* ============================================================== */
+
 /* https://www.color-hex.com/color-palette/84804
 
 Dark Blue: #00203b	(0,32,59)
@@ -722,7 +728,6 @@ p.button {
 }
 
 .btn:hover {
-  /* color: #0074d8; */
   color: #fff;
   background-color: #369;
   border: 1px solid #0074d8;
@@ -752,13 +757,6 @@ p.button {
 	flex: 0 1 auto;
 	margin: 5px;
 }
-
-
-/* Dark Blue: #00203b	(0,32,59)
-Mid Blue: #005fb1	(0,95,177)
-Bright Blue: #0074d8	(0,116,216)
-Slate Blue: #6791a2	(103,145,162)
-Light Grey: #edf2f4	(237,242,244) */
 
 
 /* ============================================================== *\

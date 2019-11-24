@@ -4,6 +4,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    height: 118px;
     width: 100%;
     width: 100vw;
     z-index: 1000;
@@ -32,6 +33,9 @@ header nav {
     text-align: right;
     display: flex;
     flex-direction: row-reverse;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 header nav a {
@@ -68,7 +72,6 @@ header nav a:hover {
 \* ============================================================== */
 
 @media only screen and (max-width: 480px) {
-
     header h1 {
         margin: 0.4em 0.8em 0.6em;
     }

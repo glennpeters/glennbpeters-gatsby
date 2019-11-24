@@ -15,22 +15,23 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <nav>
-        {/* <Link
-          to="/portfolio"
-        >
-          Portfolio
-        </Link> |  */}
-        <Link
-          to="/"
-        >
-          About
-        </Link>
-        <Link
-          to="/resume"
-        >
-          R&eacute;sum&eacute;
-        </Link> 
-        {/* <a href="http://portfolio.aenigma.com/" target="_blank" rel="noreferrer">Portfolio</a>  */}
+        <div className="nav-inner">
+          {/* <Link
+            to="/portfolio"
+          >
+            Portfolio
+          </Link> |  */}
+          <Link
+            to="/"
+          >
+            About
+          </Link>
+          <Link
+            to="/resume"
+          >
+            R&eacute;sum&eacute;
+          </Link> 
+        </div>
       </nav>
     </div>
   </header>
