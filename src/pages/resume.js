@@ -15,11 +15,15 @@ const Resume = () => (
 			<div id="my-info">
 				<h1>Glenn Peters</h1>
 
-				<p>
+				<div>
+					<span className="address">
+						Portland, OR
+					</span>
 					<a href="tel:503-753-4919">503 753-4919</a>
-					Portland, OR<br />
-					<a href="mailto:work@glennbpeters.com">work@glennbpeters.com</a>
-				</p>
+					<div>
+						<a href="mailto:work@glennbpeters.com">work@glennbpeters.com</a>
+					</div>
+				</div>
 			</div>
 
 			<section id="technologies">
@@ -204,7 +208,7 @@ const Resume = () => (
 						</div>
 						<div className="address">
 							309 SW Sixth Avenue, Suite 700<br />
-							Portland  Oregon  97204
+							Portland, OR  97204
 						</div>
 					</div>
 
@@ -246,7 +250,7 @@ const Resume = () => (
 						</div>
 						<div className="address">
 							10300 SW Greenburg Rd, Suite 180<br />
-							Portland OR, 97223
+							Portland, OR 97223
 						</div>
 					</div>
 
@@ -267,7 +271,7 @@ const Resume = () => (
 						</div>
 						<div className="address">
 							1001 SE Water Avenue, Suite 250<br />
-							Portland, Oregon 97214
+							Portland, OR 97214
 						</div>
 					</div>
 

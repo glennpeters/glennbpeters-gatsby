@@ -755,7 +755,8 @@ p.button {
 } */
 .item {
 	flex: 0 1 auto;
-	margin: 5px;
+  margin: 5px;
+  padding: 0 0.5em;
 }
 
 

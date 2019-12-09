@@ -18,11 +18,12 @@ import Img from "gatsby-image"
  // 2012_me_kauai_beach-crop.jpg
  // 2017-08-21_eclise-shadows.jpg
  // 2016-10-04_me_with_hoe-crop.jpg
+ // 2019-11-24_glenn-mural
 
 const ImageGlenn = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "2016-10-04_me_with_hoe-crop.jpg" }) {
+      placeholderImage: file(relativePath: { eq: "2019-11-24_glenn-mural.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid

@@ -47,10 +47,12 @@ header nav a {
     background-color: rgba(237, 242, 244, 0.4);
     color: #00203b;
     display: inline-flex;
+    border-radius: 12px 0 0 0;
 }
 
 header nav a + a {
     border-left: none;
+    border-radius: 0;
 }
 
 header nav a[aria-current="page"] {
