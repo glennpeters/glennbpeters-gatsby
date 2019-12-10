@@ -15,12 +15,22 @@
 
 .self-portrait img {
     border-radius: 10%;
-    filter: grayscale(10%);
+    /* filter: grayscale(10%); */
     transition: all 1s ease-out;
 }
 
-.self-portrait img:hover {
+/* .self-portrait img:hover {
     filter: grayscale(10%);
+} */
+
+.self-portrait caption {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.3em 1em;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
 }
 
 

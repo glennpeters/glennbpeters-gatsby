@@ -320,4 +320,11 @@ section#note > h2 {
 	section#note > h2 {
 		font-style: normal;
 	}
+
+	/* Undo sticky */
+	section > h2 {
+		 position: relative;
+		 top: 0;
+	}
+	
 }

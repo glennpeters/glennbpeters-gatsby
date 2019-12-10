@@ -16,6 +16,10 @@ const IndexPage = () => (
         <div className="item">
           <div className="self-portrait">
             <ImageGlenn />
+
+            <caption>
+              He's right behind me, isn't he?
+            </caption>
           </div>
         </div>
 
