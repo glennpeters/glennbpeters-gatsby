@@ -33,18 +33,20 @@ const Resume = () => (
 				<ul>
 					<li>
 						<strong>Languages and libraries</strong>
-						HTML5, CSS3 (Responsive Design, Media Queries), SASS, JavaScript 
-						(including jQuery, Vue, React, Angular, Knockout, Greensock, 
-						Handlebars, et al), PHP, SQL
+						HTML5, CSS3 (Responsive Design, Media Queries), 
+						LESS, SASS, JavaScript 
+						(including jQuery, React, Vue, Angular, Knockout, Greensock, 
+						Handlebars, etc.), 
+						SQL, PHP, Perl
 					</li>
-					<li>
+					{/* <li>
 						<strong>Platforms</strong>
 						Macintosh, Windows, Unix / Linux
-					</li>
+					</li> */}
 					<li>
 						<strong>Tools and Protocols</strong>
 						VS Code, Visual Studio, 
-						Jira/Atlassian Suite, Webpack, Snowflake, 
+						Jira/Atlassian Suite, Snowflake, 
 						mySQL, SQL Server, 
 						SQL Developer, Oracle, IIS, Apache, Photoshop,
 						Tableau, Git, Visual SourceSafe, CVS, Subversion
@@ -55,6 +57,40 @@ const Resume = () => (
 			<section id="workExperience">
 
 				<h2>Work Experience</h2>
+
+				<div className="job">
+					<div className="info">
+						<div className="company">
+							Artech
+						</div>
+						<div className="position">
+							<div className="title">Developer (contract)</div>
+							<div className="dates">January 2020 - April 2022</div>
+						</div>
+					</div>
+
+					<ul>
+						<li>Implementation, debug, and analysis of content, custom code and components on intel.com with 
+							improved accessibility, responsiveness, and decreased page load (Adobe Experience Manager, 
+							HTML5, CSS3, JavaScript, Aria accessibility)</li>
+						<li>
+							Implementing and troubleshooting custom code for A/B testing on intel.com
+							(Adobe Target, HTML5, CSS3, JavaScript, jQuery)
+						</li>
+						<li>
+							Intel.com standards advocacy and documentation
+						</li>
+						<li>
+							Prominent projects:
+							<ul>
+								<li>New intel.com home page template, 2020—2021 </li>
+								<li>New Contact Support page, 2021 (Notable for keyboard support)</li>
+								<li>New Download Center download pages, 2021 (notable for accessible support, including modal, the most used pages on the site)</li>
+								<li>New alternate home heroes, 2021—2022</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 
 				<div className="job">
 					<div className="info">

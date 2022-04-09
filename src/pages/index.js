@@ -2,9 +2,13 @@ import React from "react"
 // import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import ImageGlenn from "../components/imageGlenn"
 import SEO from "../components/seo"
+
+// Styling
 import "../css/about.css"
+
+// Images (using Gatsby-Image / GraphQL)
+import ImageGlenn from "../components/imageGlenn"
 
 
 const IndexPage = () => (
@@ -12,10 +16,10 @@ const IndexPage = () => (
     <SEO title="Glenn Peters" />
 
     <div className="container" id="about">
-      <section>
+      <section aria-label="About Me">
         <div className="item">
-          <div className="self-portrait">
-            <ImageGlenn />
+          <div className="self-portrait" aria-hidden="true">
+            <ImageGlenn alt="Glenn Peters photo" />
 
             <caption>
               He's right behind me, isn't he?
@@ -25,25 +29,37 @@ const IndexPage = () => (
 
         <div className="item">
           <p>
-            Glenn is a front end web developer who’s worked with 
-            big companies like Oracle and DSV as well as small to mid-size startups and agencies.  
-            He has been instrumental in 
-            developing and maintaining many websites, large and small.
-            He is proficient at learning new tech on the fly and 
-            finding out what will serve both the client and end user.  
+            I am a front end web developer who have worked at 
+            big companies like Intel, DSV, and Oracle as well as small to mid-size startups and agencies.  
           </p>
           <p>
-            Just some examples of what he's accomplished include: A JavaScript wrapper 
-            that allowed the sale of a developed set of courseware to the client when 
-            the existing protocols didn’t match the end client's Learning Management System.  
-            At ARM Insight, he implemented Google Analytics 
-            tracking in the micro-reward website, allowing more detailed analysis of user flow.  
+            The sites I've worked on I&apos;ve both developed from scratch as well as legacy
+            site involving many teams.  I frequently learn new tech on the fly and am devoted 
+            to finding the best solutions for both the client and the end user.  
+          </p>
+          <p>
+            Just some examples of what he&apos;s accomplished include: 
+            <ul>
+              <li>
+                A JavaScript SCORM wrapper 
+                that allowed the sale of a developed set of courseware to the client when 
+                the existing protocols didn&apos;t match the end client's Learning Management System.
+              </li>
+              <li>
+                Updating the intel.com Home page (2021), Download Center content pages (2021), 
+                and Contact Support area (2021)
+              </li>
+              <li>
+                Implemented Google Analytics tracking in a micro-reward website, allowing more detailed analysis of user flow.  
+              </li>
+            </ul>
+
           </p>          
         </div>
       </section>
-
+{/* 
       <div className="row">
-      </div>
+      </div> */}
 
       <div className="item nav">
         <p className="button">

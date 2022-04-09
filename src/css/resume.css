@@ -99,7 +99,7 @@ section {
 }
 
 section > h2 {
-	font-family: 'Merriweather', 'Times New Roman', Times, serif;
+	/* font-family: 'Merriweather', 'Times New Roman', Times, serif; */
 	font-size: 1.3rem;
 	font-weight: 300;
 	letter-spacing: 0.15em;

@@ -4,7 +4,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    height: 118px;
+    height: 7rem;
     width: 100%;
     width: 100vw;
     z-index: 1000;
@@ -16,9 +16,9 @@ header .page-wide {
 }
 
 header h1 {
-    font-family: 'Merriweather', sans-serif;
-    letter-spacing: 0.05em;
-    margin: 0.4em 0 0.1em;
+    /* font-family: 'Jura', 'Merriweather', sans-serif; */
+    letter-spacing: 0.05rem;
+    margin: 0.4rem 0 0.1rem;
 }
 
 header a {
