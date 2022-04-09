@@ -50,7 +50,8 @@ const IndexPage = () => (
                 and Contact Support area (2021)
               </li>
               <li>
-                Implemented Google Analytics tracking in a micro-reward website, allowing more detailed analysis of user flow.  
+                Implemented Google Analytics tracking in a micro-reward website, 
+                allowing more detailed analysis of user flow.  
               </li>
             </ul>
 
